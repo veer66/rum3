@@ -1,5 +1,6 @@
 # rum3
 
+rum3 is an example figwheel + rum + ring + bidi usages.
 
 ## Generation
 
