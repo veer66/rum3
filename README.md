@@ -19,7 +19,7 @@ I replace defonce with def in order to change web instantly.
 
 I just added server.clj in src/rum3
 
-````
+````Clojure
 (ns rum3.server
   (:require [bidi.ring :refer (make-handler)]
             [bidi.bidi :refer (url-decode)]
@@ -48,7 +48,7 @@ I just added server.clj in src/rum3
 It uses ring and bidi so I added more dependencies in project.clj:
 
 
-````
+````Clojure
 [bidi "2.0.17"]
 [ring "1.5.0"]
 
@@ -60,7 +60,7 @@ It uses ring and bidi so I added more dependencies in project.clj:
 I also use Figwheel to handle Ring by adding this line in project.clj:
 
 
-````
+````Clojure
 :ring-handler rum3.server/app
 ````
 
@@ -70,7 +70,7 @@ I also use Figwheel to handle Ring by adding this line in project.clj:
 
 Run:
 
-````
+````Clojure
 lein figwheel
 ````
 
